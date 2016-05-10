@@ -1,23 +1,8 @@
--Scenarios and application domains
--Technologies
--Feasibility
-	-What might be doable
-	-What not?
-	-When?
--Weirdness/crazyness, any concerns?
-
 -Big Bang Theory Video-
 HAB: Making something with the internet much more complicated than doing it locally.
 Why? Just because we can.
 This is realistic, but maybe not makes much sense
-
--Scenarios and application domains: 
 -Technologies: Wifi, Bluetooth, Laptop
--Feasibility
-	-What might be doable
-	-What not?
-	-When?
--Weirdness/crazyness, any concerns?
 
 
 -Second video-
@@ -28,7 +13,6 @@ Flexible modules: Replace whole rules of a house
 
 Energy distubuted integlligent,
 
-
 Open door concept
 Personal assited navigation
 
@@ -37,10 +21,7 @@ Personal assited navigation
 -Technologies
 	-INTERNET, Context Aware Systems. Body scanners
 -Feasibility Not all yet. Needs time and standards and companies work together
-	-What might be doable? 
-	-What not?
-	-When?
--Weirdness/crazyness, any concerns? 
+
 Security? If this all bases on linux and there is some bug in a low level protocol (SSH), the whole security at the top level does not help.
 
 Intelligent networks: Integrate things and work together across domains.
