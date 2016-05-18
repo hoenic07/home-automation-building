@@ -1,8 +1,0 @@
-SSH: key in format ssh-rsa <key> <email>
-authorized_keys is a file not a folder!
-
-TTL: use this tutorial http://www.miklor.com/COM/UV_Drivers.php#install
-Cabeling is:
-RED, <empty>, BLACK, WHITE, GREEN
-Connect with putty: COM4 115200
-Than a black window appeared. After restarting the PI it finally worked
