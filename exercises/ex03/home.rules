@@ -1,0 +1,28 @@
+import org.openhab.model.script.actions.Timer
+
+var Timer timer
+
+rule "Turn off TimeLED"
+when
+	Item MyTimeLED changed to ON
+then
+	timer = createTimer(now.plusSeconds(5))[|
+	  MyTimeLED.sendCommand(OFF)
+	  timer=null;
+	]
+end
+
+
+rule "turn LED on when button press"
+when
+        Item MyButton changed
+then
+        MyLED1.sendCommand(if(MyLED1.state!=OFF) OFF else ON)
+end
+rule "turn LED on when button press"
+when
+	Item MyButton changed
+then
+	MyLED1.sendCommand(if(MyLED1.state!=OFF) OFF else ON)
+end
+

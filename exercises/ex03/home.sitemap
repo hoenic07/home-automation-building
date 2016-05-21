@@ -1,0 +1,14 @@
+sitemap home label="Home"
+{
+ Frame label="LEDs"
+ {
+   Switch item=MyLED1
+   Switch item=MyLED2
+   Switch item=LEDs
+   Switch item=MyTimeLED
+ }
+
+
+
+
+}

@@ -1,0 +1,7 @@
+// Raspberry Pi
+// GPIO
+Group  LEDs	"All LEDS" 
+Switch MyLED1 "Led 1"	(LEDs)	{ gpio="pin:23 force:yes" }
+Switch MyLED2 "Led 2"	(LEDs)	{ gpio="pin:18 force:yes" }
+Contact MyButton {gpio="pin:24 activelow:yes force:yes"}
+Switch MyTimeLED "5 sec timer LED" {gpio="pin:25 force:yes"}
