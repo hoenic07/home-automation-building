@@ -19,10 +19,4 @@ when
 then
         MyLED1.sendCommand(if(MyLED1.state!=OFF) OFF else ON)
 end
-rule "turn LED on when button press"
-when
-	Item MyButton changed
-then
-	MyLED1.sendCommand(if(MyLED1.state!=OFF) OFF else ON)
-end
 
