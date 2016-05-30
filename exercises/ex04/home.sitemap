@@ -1,0 +1,22 @@
+sitemap home label="Home"
+{
+ Frame label="LEDs"
+ {
+   Switch item=MyLED1
+   Switch item=MyLED2
+   Switch item=LEDs
+   Switch item=MyTimeLED
+ }
+ Frame label="EnOcean"
+ {
+   Text item=Temperature valuecolor=[>25="orange",>15="green",>5="orange",<=5="blue"]
+ }
+ Frame label="Hue"
+ {
+  Switch         item=MyLampSwitch1
+  Switch	 item=MyLampSwitch3
+  Colorpicker    item=MyLampColor3
+  Slider         item=MyLampBrightness3
+  Slider         item=MyLampTemp3
+ }
+}

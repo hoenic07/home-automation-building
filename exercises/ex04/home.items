@@ -1,0 +1,15 @@
+// Raspberry Pi
+// GPIO
+Group  LEDs	"All LEDS" 
+Switch MyLED1 "Led 1"	(LEDs)	{ gpio="pin:23 force:yes" }
+Switch MyLED2 "Led 2"	(LEDs)	{ gpio="pin:18 force:yes" }
+Contact MyButton {gpio="pin:24 activelow:yes force:yes"}
+Switch MyTimeLED "5 sec timer LED" {gpio="pin:25 force:yes"}
+Switch EnButton () {enocean="{id=00:29:47:9A, eep=F6:02:01, channel=B}"}
+Number Temperature "Temperature [%.1f °C]" <temperature> (All) {enocean="{id=01:81:B9:B6, eep=A5:02:05, parameter=TEMPERATURE}"}
+
+Switch MyLampSwitch1 "Lamp 1 Switch" {hue="1"}
+Switch MyLampSwitch3 "Lamp 3 Switch" {hue="3"}
+Color MyLampColor3 "Lamp 3 Color"  {hue="3"}
+Dimmer MyLampBrightness3 "Lamp 3 Brightness" {hue="3;brightness;30"}
+Dimmer MyLampTemp3 "Lamp 3 Temperature" {hue="3;colorTemperature;30"}
